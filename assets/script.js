@@ -21,7 +21,7 @@ $(function () {
   if (hourId < currentHour) {
     $(this).addClass('past');
   }
-  else if (hourId === currentHour) {
+  else if (hourId == currentHour) {
     $(this).addClass('present');
   }
   else {
